@@ -3,13 +3,26 @@ body {
 }
 body header {
   background: url("../image/starry night.jpg");
+<<<<<<< HEAD
   height: 300px;
+=======
+  height: 250px;
+>>>>>>> 1985c4553e7df329643e07d69b01cdb275e9526f
   background-color: rgb(40, 40, 40);
   text-align: center;
 }
 body header .logo {
   display: inline;
+<<<<<<< HEAD
   height: 250px;
+=======
+  height: 220px;
+}
+body header .hotpot {
+  display: inline-block;
+  font-family: cursive;
+  color: rgb(220, 60, 0);
+>>>>>>> 1985c4553e7df329643e07d69b01cdb275e9526f
 }
 body nav a {
   text-decoration: none;

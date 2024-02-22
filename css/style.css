@@ -3,18 +3,13 @@ body {
 }
 body header {
   background: url("../image/starry night.jpg");
-  height: 250px;
+  height: 300px;
   background-color: rgb(40, 40, 40);
   text-align: center;
 }
 body header .logo {
   display: inline;
-  height: 220px;
-}
-body header .hotpot {
-  display: inline-block;
-  font-family: cursive;
-  color: rgb(220, 60, 0);
+  height: 250px;
 }
 body nav a {
   text-decoration: none;

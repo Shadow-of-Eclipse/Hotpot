@@ -10,12 +10,6 @@
     height: 250px;
 }
 
-@mixin hotpot {
-    display: inline-block;
-    font-family: cursive;
-    color: $hotpot-red;
-}
-
 @mixin footer {
     background-color: rgb(220, 160, 0);
     height: 80px;

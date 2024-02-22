@@ -11,12 +11,6 @@ body {
         .logo {
             @include logo-layout;
         }
-        // // .restaurant-name {
-        // //     @include restaurant-name
-        // }  
-        .hotpot {
-            @include hotpot 
-        }
     }
     nav {
         a {

@@ -2,12 +2,14 @@ body {
   background-image: url("../image/light-background.webp");
 }
 body header {
-  height: 200px;
+  background: url("../image/starry night.jpg");
+  height: 250px;
   background-color: rgb(40, 40, 40);
   text-align: center;
 }
 body header .logo {
   display: inline;
+  height: 220px;
 }
 body header .hotpot {
   display: inline-block;

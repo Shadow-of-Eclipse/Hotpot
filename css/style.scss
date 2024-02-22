@@ -9,7 +9,7 @@ body {
     header {
         @include header-style;
         .logo {
-            display: inline;
+            @include logo-layout;
         }
         // // .restaurant-name {
         // //     @include restaurant-name

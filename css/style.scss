@@ -2,6 +2,7 @@
 
 $header: rgb(40, 40, 40);
 $hotpot-red:  rgb(220, 60, 0);
+$hotpot-green:  rgb(57, 181, 74);
 
 body {
     background-image: url("../image/light-background.webp");
@@ -36,7 +37,12 @@ body {
         .menu-photo, .comment {
             text-align: center;
         }
-        
+        .meat, .seafood, .beverage {
+            color: $hotpot-red;
+        }
+        figcaption.figure-caption {
+            color: black;
+        }
     }
 
     footer {

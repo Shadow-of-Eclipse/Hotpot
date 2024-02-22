@@ -32,6 +32,12 @@ body nav .active-page {
 body section .menu-photo, body section .comment {
   text-align: center;
 }
+body section .meat, body section .seafood, body section .beverage {
+  color: rgb(220, 60, 0);
+}
+body section figcaption.figure-caption {
+  color: black;
+}
 body footer {
   background-color: rgb(220, 160, 0);
   height: 80px;

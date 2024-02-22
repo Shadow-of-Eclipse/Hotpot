@@ -1,18 +1,18 @@
 @mixin header-style {
     background: url("../image/starry night.jpg");
-    height: 300px;
+    height: 250px;
     background-color: $header;
     text-align: center;
 }
 
 @mixin logo-layout {
     display: inline;
-    height: 250px;
+    height: 220px;
 }
 
 @mixin footer {
     background-color: rgb(220, 160, 0);
-    height: 80px;
+    height: 100%;
     text-align: center;
 }
 

@@ -1,0 +1,45 @@
+@import './mixin.scss';
+
+$header: rgb(40, 40, 40);
+$hotpot-red:  rgb(220, 60, 0);
+
+body {
+    background-image: url("../image/light-background.webp");
+    header {
+        @include header-style;
+        .logo {
+            display: inline;
+        }
+        // // .restaurant-name {
+        // //     @include restaurant-name
+        // }  
+        .hotpot {
+            @include hotpot 
+        }
+    }
+    nav {
+        a {
+            @include navbar
+        }
+        a:hover {
+            color: burlywood;
+        }
+        :focus {
+            color: black;
+        }
+        .active-page {
+            @include active-page
+        }
+    }
+
+    section {
+        .menu-photo, .comment {
+            text-align: center;
+        }
+        
+    }
+
+    footer {
+        @include footer
+    }
+}

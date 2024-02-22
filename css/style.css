@@ -1,0 +1,39 @@
+body {
+  background-image: url("../image/light-background.webp");
+}
+body header {
+  height: 200px;
+  background-color: rgb(40, 40, 40);
+  text-align: center;
+}
+body header .logo {
+  display: inline;
+}
+body header .hotpot {
+  display: inline-block;
+  font-family: cursive;
+  color: rgb(220, 60, 0);
+}
+body nav a {
+  text-decoration: none;
+  color: rebeccapurple;
+  font-weight: 500;
+}
+body nav a:hover {
+  color: burlywood;
+}
+body nav :focus {
+  color: black;
+}
+body nav .active-page {
+  font-weight: 700;
+  color: rgb(0, 150, 150);
+}
+body section .menu-photo, body section .comment {
+  text-align: center;
+}
+body footer {
+  background-color: rgb(220, 160, 0);
+  height: 80px;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

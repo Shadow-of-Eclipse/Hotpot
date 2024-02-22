@@ -1,0 +1,28 @@
+@mixin header-style {
+    height: 200px;
+    background-color: $header;
+    text-align: center;
+}
+
+@mixin hotpot {
+    display: inline-block;
+    font-family: cursive;
+    color: $hotpot-red;
+}
+
+@mixin footer {
+    background-color: rgb(220, 160, 0);
+    height: 80px;
+    text-align: center;
+}
+
+@mixin navbar {
+    text-decoration: none;
+    color: rebeccapurple;
+    font-weight: 500;
+}
+
+@mixin active-page {
+    font-weight: 700;
+    color: rgb(0, 150, 150);
+}

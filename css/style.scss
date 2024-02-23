@@ -13,18 +13,20 @@ body {
         }
     }
     nav {
-        a {
-            @include navbar
+            a {
+                @include navbar
+            }
+            a:hover {
+                color: burlywood;
+            }
+            :focus {
+                color: black;
+            }
+            .active-page {
+                @include active-page
+            }
         }
-        a:hover {
-            color: burlywood;
-        }
-        :focus {
-            color: black;
-        }
-        .active-page {
-            @include active-page
-        }
+        
     }
 
     section {

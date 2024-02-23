@@ -5,7 +5,7 @@ $hotpot-red:  rgb(220, 60, 0);
 $hotpot-green:  rgb(57, 181, 74);
 
 body {
-    background-image: url("../image/light-background.webp");
+    @include body;
     header {
         @include header-style;
         .logo {

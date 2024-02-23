@@ -11,18 +11,21 @@ body header .logo {
   display: inline;
   height: 220px;
 }
-body nav a {
+body nav.row div.col {
+  width: 100%;
+}
+body nav.row div.col a {
   text-decoration: none;
   color: rebeccapurple;
   font-weight: 500;
 }
-body nav a:hover {
+body nav.row div.col a:hover {
   color: burlywood;
 }
-body nav :focus {
+body nav.row div.col :focus {
   color: black;
 }
-body nav .active-page {
+body nav.row div.col .active-page {
   font-weight: 700;
   color: rgb(0, 150, 150);
 }

@@ -1,8 +1,8 @@
 @import './mixin.scss';
 
-$header: rgb(40, 40, 40);
 $hotpot-red:  rgb(220, 60, 0);
 $hotpot-green:  rgb(57, 181, 74);
+$button-active: rgb(0, 180, 180);
 
 body {
     @include body;
@@ -17,10 +17,10 @@ body {
                 @include navbar
             }
             a:hover {
-                color: burlywood;
+                color: black;
             }
             :focus {
-                color: black;
+                color: white;
             }
             .active-page {
                 @include active-page
@@ -38,6 +38,9 @@ body {
         }
         figcaption.figure-caption {
             color: black;
+        }
+        .store-info {
+            text-align: center;
         }
     }
 

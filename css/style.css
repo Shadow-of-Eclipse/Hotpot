@@ -17,14 +17,14 @@ body nav a {
   font-weight: 500;
 }
 body nav a:hover {
-  color: burlywood;
+  color: black;
 }
 body nav :focus {
-  color: black;
+  color: white;
 }
 body nav .active-page {
   font-weight: 700;
-  color: rgb(0, 150, 150);
+  color: rgb(0, 180, 180);
 }
 body section .menu-photo, body section .comment {
   text-align: center;
@@ -34,6 +34,9 @@ body section .meat, body section .seafood, body section .beverage {
 }
 body section figcaption.figure-caption {
   color: black;
+}
+body section .store-info {
+  text-align: center;
 }
 body footer {
   background-color: rgb(220, 160, 0);

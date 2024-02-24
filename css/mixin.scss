@@ -28,5 +28,5 @@
 
 @mixin active-page {
     font-weight: 700;
-    color: rgb(0, 150, 150);
+    color: $button-active;
 }

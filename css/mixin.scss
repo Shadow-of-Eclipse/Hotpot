@@ -4,14 +4,13 @@
 
 @mixin header-style {
     background: url("../image/starry night.jpg");
-    height: 250px;
-    background-color: $header;
+    height: 100%;
     text-align: center;
 }
 
 @mixin logo-layout {
     display: inline;
-    height: 220px;
+    height: 200px;
 }
 
 @mixin footer {
@@ -22,11 +21,11 @@
 
 @mixin navbar {
     text-decoration: none;
-    color: rebeccapurple;
+    color: $link-font-color;
     font-weight: 500;
 }
 
 @mixin active-page {
-    font-weight: 700;
+    font-weight: bolder;
     color: $button-active;
 }

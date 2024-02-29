@@ -2,7 +2,8 @@
 
 $hotpot-red:  rgb(220, 60, 0);
 $hotpot-green:  rgb(57, 181, 74);
-$button-active: rgb(0, 180, 180);
+$button-active: rgb(0, 220, 220);
+$link-font-color:rgb(200, 255, 50);
 
 body {
     @include body;
@@ -13,11 +14,12 @@ body {
         }
     }
     nav {
+        font-family: monospace;
             a {
                 @include navbar
             }
             a:hover {
-                color: black;
+                color: rgb(255, 150, 0);
             }
             :focus {
                 color: white;

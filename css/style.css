@@ -3,28 +3,30 @@ body {
 }
 body header {
   background: url("../image/starry night.jpg");
-  height: 250px;
-  background-color: rgb(40, 40, 40);
+  height: 100%;
   text-align: center;
 }
 body header .logo {
   display: inline;
-  height: 220px;
+  height: 200px;
+}
+body nav {
+  font-family: monospace;
 }
 body nav a {
   text-decoration: none;
-  color: rebeccapurple;
+  color: rgb(200, 255, 50);
   font-weight: 500;
 }
 body nav a:hover {
-  color: black;
+  color: rgb(255, 150, 0);
 }
 body nav :focus {
   color: white;
 }
 body nav .active-page {
-  font-weight: 700;
-  color: rgb(0, 180, 180);
+  font-weight: bolder;
+  color: rgb(0, 220, 220);
 }
 body section .menu-photo, body section .comment {
   text-align: center;
